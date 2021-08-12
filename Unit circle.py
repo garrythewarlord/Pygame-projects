@@ -40,5 +40,5 @@ while True:
 
 	unit_circle(cos_,sin_)
 
-	pygame.time.delay(int(1000/120))
+	pygame.time.delay(int(1000/60))
 	pygame.display.update()
