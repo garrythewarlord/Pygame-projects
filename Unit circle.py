@@ -14,7 +14,7 @@ def unit_circle(cos_, sin_):
 
 	pygame.draw.line(screen, ((255, 0, 0)), [w/2, h/2],[w/2 + int(( r * cos_ )), h/2 ], 3)
 	pygame.draw.line(screen, ((0, 0, 255)), [w/2, h/2],[w/2 + int(( r * cos_ )), h/2 - int((sin_* r))], 3)
-	pygame.draw.line(screen, ((0, 255, 0)), [w/2 + int(( r * cos_ )), h/2],[w/2 + int(( r * cos_ )), h/2 - int((sin_* r))], 2)
+	pygame.draw.line(screen, ((0, 255, 255)), [w/2 + int(( r * cos_ )), h/2],[w/2 + int(( r * cos_ )), h/2 - int((sin_* r))], 2)
 
 
 def unit_circle_two(cos_, sin_):
